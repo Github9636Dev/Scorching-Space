@@ -1,0 +1,24 @@
+[19:08:23.758][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[19:08:34.503][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'crafttweaker' at version '7.1.2.511'
+'custommachinery' at version '1.16.5-0.5.8g'
+'extendedcrafting' at version '3.1.12'
+'jeitweaker' at version '1.1.0.49'
+'mekanism' at version '10.1.2'
+'tconstruct' at version '3.3.4.335'
+'thermal' at version '1.5.0.14'
+'thermal_foundation' at version '1.5.0.14'
+[19:08:39.691][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[19:09:44.097][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'mekanismcontent'!
+[19:09:46.891][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
+[19:09:46.892][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom gases.
+[19:09:46.920][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom infuse types.
+[19:09:46.938][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom pigments.
+[19:09:46.946][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom robit skins.
+[19:09:46.970][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom slurries.
+[19:10:14.128][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[19:10:15.309][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[19:14:49.900][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[19:14:50.113][DONE][CLIENT][INFO] Finished loading Scripts!
+[19:15:04.282][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[19:15:05.002][DONE][CLIENT][INFO] Finished loading Scripts!

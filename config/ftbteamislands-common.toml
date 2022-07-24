@@ -1,12 +1,12 @@
 
 [general]
+	enableMultiplayer = true
 	#Enables a 5 minute timeout on the `ftbteamislands create` command
 	creationTimeout = true
-	enableSingleplayer = false
-	enableMultiplayer = true
 	clearInvWhenTeamLeft = true
-	enableMyIslandCommand = true
 	targetIslandLevel = "minecraft:overworld"
+	enableSingleplayer = false
+	enableMyIslandCommand = true
 
 [lobby]
 	#Auto-teleports player to their island once they join a team.
@@ -16,10 +16,9 @@
 	lobbyStructureFile = "ftbteamislands:default_lobby"
 
 [islands]
-	#Height at which the islands will generate.
-	#-1 = auto, on top of highest block in world
-	#Range: -1 ~ 255
-	height = 80
+	#The default island.
+	#Must be resource location and within the structures folder of data
+	defaultIslands = "ftbteamislands:teamislands_island"
 	#Radius of the chunks to automatically claim if FTB Chunks is installed.
 	#-1 = disabled
 	#0 = 1x1
@@ -27,15 +26,16 @@
 	#4 = 9x9
 	#Range: -1 ~ 100
 	autoClaimChunkRadius = 4
-	#Allow selection of the island type, if set to false, then islands will be randomized.
-	selectIslands = true
 	#Distance put between new islands in regions, 1 being a single region
 	#Range: 3 ~ 100
 	distanceBetweenIslandsInRegions = 3
-	#The default island.
-	#Must be resource location and within the structures folder of data
-	defaultIslands = "ftbteamislands:teamislands_island"
 	#The default islands spawning Y offset
 	#Range: > -2147483648
 	defaultIslandResourceYOffset = 0
+	#Allow selection of the island type, if set to false, then islands will be randomized.
+	selectIslands = true
+	#Height at which the islands will generate.
+	#-1 = auto, on top of highest block in world
+	#Range: -1 ~ 255
+	height = 80
 

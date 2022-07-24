@@ -9,117 +9,117 @@
 
 [sluices]
 
+	[sluices.diamond]
+		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
+		#Range: 0.0 ~ 1000.0
+		"processing time multiplier" = 0.6
+		#Allows this sluice to be used for item IO
+		allowsIO = true
+		#Allows this sluice to be upgraded
+		upgradeable = false
+		#Allows this sluice to be used for fluid IO
+		allowsTank = true
+		#Sets how much fluid this sluice's tank can carry (in mB)
+		#Range: 0 ~ 1000000
+		"tank capacity" = 12000
+		#FE cost per use
+		#Range: > 0
+		"fe cost per use" = 0
+		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
+		#Range: 0.0 ~ 1000.0
+		"fluid multiplier" = 0.75
+
 	[sluices.oak]
 		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
 		#Range: 0.0 ~ 1000.0
 		"processing time multiplier" = 1.0
-		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
-		#Range: 0.0 ~ 1000.0
-		"fluid multiplier" = 1.0
+		#Allows this sluice to be used for item IO
+		allowsIO = false
+		#Allows this sluice to be upgraded
+		upgradeable = false
+		#Allows this sluice to be used for fluid IO
+		allowsTank = false
 		#Sets how much fluid this sluice's tank can carry (in mB)
 		#Range: 0 ~ 1000000
 		"tank capacity" = 12000
-		#Allows this sluice to be used for item IO
-		allowsIO = false
-		#Allows this sluice to be used for fluid IO
-		allowsTank = false
-		#Allows this sluice to be upgraded
-		upgradeable = false
 		#FE cost per use
 		#Range: > 0
 		"fe cost per use" = 0
+		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
+		#Range: 0.0 ~ 1000.0
+		"fluid multiplier" = 1.0
 
 	[sluices.iron]
 		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
 		#Range: 0.0 ~ 1000.0
 		"processing time multiplier" = 0.8
+		#Allows this sluice to be used for item IO
+		allowsIO = true
+		#Allows this sluice to be upgraded
+		upgradeable = false
+		#Allows this sluice to be used for fluid IO
+		allowsTank = false
+		#Sets how much fluid this sluice's tank can carry (in mB)
+		#Range: 0 ~ 1000000
+		"tank capacity" = 12000
+		#FE cost per use
+		#Range: > 0
+		"fe cost per use" = 0
 		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
 		#Range: 0.0 ~ 1000.0
 		"fluid multiplier" = 0.6
-		#Sets how much fluid this sluice's tank can carry (in mB)
-		#Range: 0 ~ 1000000
-		"tank capacity" = 12000
-		#Allows this sluice to be used for item IO
-		allowsIO = true
-		#Allows this sluice to be used for fluid IO
-		allowsTank = false
-		#Allows this sluice to be upgraded
-		upgradeable = false
-		#FE cost per use
-		#Range: > 0
-		"fe cost per use" = 0
-
-	[sluices.diamond]
-		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
-		#Range: 0.0 ~ 1000.0
-		"processing time multiplier" = 0.6
-		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
-		#Range: 0.0 ~ 1000.0
-		"fluid multiplier" = 0.75
-		#Sets how much fluid this sluice's tank can carry (in mB)
-		#Range: 0 ~ 1000000
-		"tank capacity" = 12000
-		#Allows this sluice to be used for item IO
-		allowsIO = true
-		#Allows this sluice to be used for fluid IO
-		allowsTank = true
-		#Allows this sluice to be upgraded
-		upgradeable = false
-		#FE cost per use
-		#Range: > 0
-		"fe cost per use" = 0
-
-	[sluices.netherite]
-		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
-		#Range: 0.0 ~ 1000.0
-		"processing time multiplier" = 0.4
-		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
-		#Range: 0.0 ~ 1000.0
-		"fluid multiplier" = 0.5
-		#Sets how much fluid this sluice's tank can carry (in mB)
-		#Range: 0 ~ 1000000
-		"tank capacity" = 12000
-		#Allows this sluice to be used for item IO
-		allowsIO = true
-		#Allows this sluice to be used for fluid IO
-		allowsTank = true
-		#Allows this sluice to be upgraded
-		upgradeable = true
-		#FE cost per use
-		#Range: > 0
-		"fe cost per use" = 40
 
 	[sluices.empowered]
 		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
 		#Range: 0.0 ~ 1000.0
 		"processing time multiplier" = 0.2
-		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
-		#Range: 0.0 ~ 1000.0
-		"fluid multiplier" = 0.2
+		#Allows this sluice to be used for item IO
+		allowsIO = true
+		#Allows this sluice to be upgraded
+		upgradeable = true
+		#Allows this sluice to be used for fluid IO
+		allowsTank = true
 		#Sets how much fluid this sluice's tank can carry (in mB)
 		#Range: 0 ~ 1000000
 		"tank capacity" = 25000
-		#Allows this sluice to be used for item IO
-		allowsIO = true
-		#Allows this sluice to be used for fluid IO
-		allowsTank = true
-		#Allows this sluice to be upgraded
-		upgradeable = true
 		#FE cost per use
 		#Range: > 0
 		"fe cost per use" = 80
+		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
+		#Range: 0.0 ~ 1000.0
+		"fluid multiplier" = 0.2
+
+	[sluices.netherite]
+		#Defines how long it takes to process a resource in this Sluice (This is multiplied by the recipe base tick time)
+		#Range: 0.0 ~ 1000.0
+		"processing time multiplier" = 0.4
+		#Allows this sluice to be used for item IO
+		allowsIO = true
+		#Allows this sluice to be upgraded
+		upgradeable = true
+		#Allows this sluice to be used for fluid IO
+		allowsTank = true
+		#Sets how much fluid this sluice's tank can carry (in mB)
+		#Range: 0 ~ 1000000
+		"tank capacity" = 12000
+		#FE cost per use
+		#Range: > 0
+		"fe cost per use" = 40
+		#Sets how much fluid is used per processed recipe (This is multiplied by the recipe's fluid consumption rate)
+		#Range: 0.0 ~ 1000.0
+		"fluid multiplier" = 0.5
 
 [hammers]
-	#Speed of the iron auto-hammer as ticks taken to process the block
-	#Range: 1 ~ 100000
-	ironSpeed = 50
-	#Speed of the gold auto-hammer as ticks taken to process the block
-	#Range: 1 ~ 100000
-	goldSpeed = 40
 	#Speed of the diamond auto-hammer as ticks taken to process the block
 	#Range: 1 ~ 100000
 	diamondSpeed = 30
+	#Speed of the gold auto-hammer as ticks taken to process the block
+	#Range: 1 ~ 100000
+	goldSpeed = 40
 	#Speed of the netherite auto-hammer as ticks taken to process the block
 	#Range: 1 ~ 100000
 	netheriteSpeed = 15
+	#Speed of the iron auto-hammer as ticks taken to process the block
+	#Range: 1 ~ 100000
+	ironSpeed = 50
 

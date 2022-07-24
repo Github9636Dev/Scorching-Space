@@ -1,0 +1,46 @@
+[19:14:55] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[19:14:55] [INFO ] SourceFile:41: Loaded script server_scripts:script.js in 0.003 s
+[19:14:55] [INFO ] SourceFile:41: Loaded 1/1 KubeJS server scripts in 0.008 s
+[19:14:55] [INFO ] Scripts loaded
+[19:14:55] [INFO ] Scanning recipes...
+[19:14:59] [INFO ] [blocks] Found 453 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [blocks] Found 453 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [items] Found 942 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [items] Found 942 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [fluids] Found 139 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [fluids] Found 139 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [entity_types] Found 17 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [entity_types] Found 17 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[19:14:59] [INFO ] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[19:14:59] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_orange_oak_sapling[thermal:insolator]': {"item":"minecraft:orange_oak_sapling"} is not a valid ingredient!
+[19:14:59] [WARN ] Failed to parse recipe 'createaddition:crude_burning/crude_oil[createaddition:crude_burning]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown fluid tag 'forge:crude_oil'
+[19:14:59] [WARN ] Failed to parse recipe createaddition:crude_burning/crude_oil[createaddition:crude_burning]: com.google.gson.JsonSyntaxException: Unknown fluid tag 'forge:crude_oil'
+[19:14:59] [WARN ] Failed to parse recipe 'createaddition:crude_burning/creosote[createaddition:crude_burning]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown fluid tag 'forge:creosote'
+[19:14:59] [WARN ] Failed to parse recipe createaddition:crude_burning/creosote[createaddition:crude_burning]: com.google.gson.JsonSyntaxException: Unknown fluid tag 'forge:creosote'
+[19:14:59] [WARN ] Failed to parse recipe 'thermal:fuels/compression/compression_creosote[thermal:compression_fuel]': {"fluid_tag":"forge:creosote","amount":1000} is not a valid ingredient!
+[19:14:59] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_yellow_birch_sapling[thermal:insolator]': {"item":"minecraft:yellow_birch_sapling"} is not a valid ingredient!
+[19:14:59] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_orange_birch_sapling[thermal:insolator]': {"item":"minecraft:orange_birch_sapling"} is not a valid ingredient!
+[19:14:59] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_yellow_oak_sapling[thermal:insolator]': {"item":"minecraft:yellow_oak_sapling"} is not a valid ingredient!
+[19:14:59] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_red_oak_sapling[thermal:insolator]': {"item":"minecraft:red_oak_sapling"} is not a valid ingredient!
+[19:14:59] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_flowering_oak_sapling[thermal:insolator]': {"item":"minecraft:flowering_oak_sapling"} is not a valid ingredient!
+[19:14:59] [INFO ] Found 9683 recipes and 0 failed recipes in 666.4 ms
+[19:14:59] [INFO ] Posted recipe events in 269.0 μs
+[19:15:00] [INFO ] Modified & removed recipes in 365.2 ms
+[19:15:00] [INFO ] Added recipes in 31.60 μs
+[19:15:00] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[19:15:03] [INFO ] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[19:15:03] [INFO ] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[19:15:03] [INFO ] Collecting Custom Machine upgrades from JS scripts.
