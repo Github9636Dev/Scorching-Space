@@ -171,7 +171,7 @@
     
     // The block settings for generating the surface.
     // Same format as flat world generation settings (blocks only)
-    "surfaceSettings": "minecraft:bedrock,62*minecraft:lava",
+    "surfaceSettings": "minecraft:bedrock,3*minecraft:obsidian,40*minecraft:cobblestone,20*minecraft:lava",
     
     "SingleBiome": {
     
@@ -180,7 +180,7 @@
       
       // Should only one biome be generated? [default: false]
       // WARNING: Some structures need a special biome, e.g. Mansion needs Dark Oak Forest! These structures will not be generated if you have only one biome!
-      "enabled": false,
+      "enabled": true,
       
       // The dimension where the single biome should be applied. Use "default" for spawn dimension
       // Allowed values: default, overworld, the_nether, the_end
