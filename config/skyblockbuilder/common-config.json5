@@ -167,11 +167,11 @@
     "structureModifier": 1.0,
     
     // Should a surface be generated in overworld? [default: false]
-    "surface": false,
+    "surface": true,
     
     // The block settings for generating the surface.
     // Same format as flat world generation settings (blocks only)
-    "surfaceSettings": "minecraft:bedrock,2*minecraft:dirt,minecraft:grass_block",
+    "surfaceSettings": "minecraft:bedrock,62*minecraft:lava",
     
     "SingleBiome": {
     
