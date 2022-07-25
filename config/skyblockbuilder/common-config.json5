@@ -158,7 +158,7 @@
     
     // Sea level in world [default: 63]
     // Range: 0 - 256
-    "seaHeight": 64,
+    "seaHeight": 63,
     
     // The modifier for spacing and separation of structures. These values can be defined by a data pack. However, this is a multiplier to change these values.
     // Minimal spacing is 1
@@ -171,7 +171,7 @@
     
     // The block settings for generating the surface.
     // Same format as flat world generation settings (blocks only)
-    "surfaceSettings": "2*minecraft:bedrock,3*minecraft:obsidian,40*minecraft:cobblestone,20*minecraft:lava",
+    "surfaceSettings": "minecraft:bedrock,3*minecraft:obsidian,40*minecraft:cobblestone,20*minecraft:lava",
     
     "SingleBiome": {
     
