@@ -56,12 +56,6 @@ boss_tools:mercury_ore
 boss_tools:venus_ore
 boss_tools:mars_ice_spike
 boss_tools:venus_deltas
-pebbles:stone_pebble_block
-pebbles:granite_pebble_block
-pebbles:diorite_pebble_block
-pebbles:blackstone_pebble_block
-pebbles:basalt_pebble_block
-pebbles:andesite_pebble_block
 mekanism:disk
 mekanism:ore
 mekanism:ore_retrogen
