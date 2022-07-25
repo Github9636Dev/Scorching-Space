@@ -1,5 +1,10 @@
+<<<<<<< HEAD
+[22:25:11.645][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[22:25:13.089][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+=======
 [20:29:51.501][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
 [20:29:56.251][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+>>>>>>> 5158995047eaeff7d000c32c34a0c381503a1e02
 'crafttweaker' at version '7.1.2.511'
 'custommachinery' at version '1.16.5-0.5.8g'
 'extendedcrafting' at version '3.1.12'
@@ -8,6 +13,28 @@
 'tconstruct' at version '3.3.4.335'
 'thermal' at version '1.5.0.14'
 'thermal_foundation' at version '1.5.0.14'
+<<<<<<< HEAD
+[22:25:14.305][CONSTRUCT][CLIENT][ERROR] Duplicate ZenCode Name 'mods.exnihilosequentia.ZenSieveRecipe' in classes 'class net.blay09.mods.excompressum.compat.crafttweaker.builder.ZenBaseRecipe' and 'class novamachina.exnihilosequentia.common.compat.crafttweaker.builder.ZenSeiveRecipe'
+[22:25:14.497][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[22:25:35.835][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'mekanismcontent'!
+[22:25:36.569][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
+[22:25:36.569][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom gases.
+[22:25:36.579][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom infuse types.
+[22:25:36.583][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom pigments.
+[22:25:36.585][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom robit skins.
+[22:25:36.587][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom slurries.
+[22:26:10.067][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[22:26:10.244][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[22:35:35.851][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[22:35:35.955][DONE][CLIENT][INFO] Finished loading Scripts!
+[22:35:45.070][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[22:35:45.154][DONE][CLIENT][INFO] Finished loading Scripts!
+[22:35:56.708][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[22:35:56.789][DONE][CLIENT][INFO] Finished loading Scripts!
+[22:36:05.041][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[22:36:05.107][DONE][CLIENT][INFO] Finished loading Scripts!
+CT GUI was limiting and very buggy and has since been removed. It is now recommended to learn ZenScript instead - you can browse the wiki for reference (/ct wiki) or ask for help on the Discord server (/ct discord).
+=======
 [20:29:57.488][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
 [20:30:28.052][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'mekanismcontent'!
 [20:30:29.555][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
@@ -22,3 +49,4 @@
 [20:37:15.423][DONE][CLIENT][INFO] Finished loading Scripts!
 [20:37:23.655][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
 [20:37:23.823][DONE][CLIENT][INFO] Finished loading Scripts!
+>>>>>>> 5158995047eaeff7d000c32c34a0c381503a1e02
