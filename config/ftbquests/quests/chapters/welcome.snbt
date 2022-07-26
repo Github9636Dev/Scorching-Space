@@ -1,0 +1,36 @@
+{
+	id: "6B6E6064BB26E52E"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["This modpack was made by my friend 9636 and me"]
+			id: "34A2B77EED34706A"
+			tasks: [{
+				id: "763E1FF9CD4F4853"
+				type: "checkmark"
+				title: "Welcome"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"This modpack was our first modpack we made"
+				"Hope you enjoy!"
+			]
+			id: "69542E2E9A864E70"
+			tasks: [{
+				id: "609A31CDCDE50F51"
+				type: "checkmark"
+				title: "Welcome"
+			}]
+		}
+	]
+}

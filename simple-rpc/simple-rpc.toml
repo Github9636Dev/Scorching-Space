@@ -2,7 +2,7 @@
 #General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
 [general]
 	#The Application ID of the Discord App to use
-	applicationID = 762726289341677668
+	applicationID = 1001526285249548298
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
@@ -19,9 +19,9 @@
 	#Enable/Disable the Game Loading Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Minecraft is loading"
+	description = "Falling into fire"
 	#The second line of text under the app name
-	state = "Game Starting..."
+	state = "Burning"
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
@@ -114,9 +114,9 @@
 	#Enable/Disable the Single Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Currently In %world%"
+	description = "Currently In a hellish wasteland"
 	#The second line of text under the app name
-	state = "Playing lonely mode"
+	state = "Trying to survive alone"
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
@@ -124,7 +124,7 @@
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
+	smallImageText = "%mods% mods in0stalled"
 	#The buttons to display on Discord
 	buttons = []
 

@@ -1,0 +1,62 @@
+{
+	id: "18058947C3FE85A4"
+	group: "549A3A7F791B0967"
+	order_index: 1
+	filename: "tinkers_construct"
+	title: "Tinker's Construct"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		dependencies: ["1764C8141010B243"]
+		id: "43EDD64EDCE6F2DE"
+		tasks: [
+			{
+				id: "68E74637925ABA26"
+				type: "item"
+				item: {
+					id: "tconstruct:crafting_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:stripped_oak_wood"
+					}
+				}
+			}
+			{
+				id: "72CD703CC2898A30"
+				type: "item"
+				item: {
+					id: "tconstruct:part_builder"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}
+			{
+				id: "544C76C45CFEC75E"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}
+		]
+		rewards: [
+			{
+				id: "3A9237ABDA326EC1"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}
+			{
+				id: "1B647E47C8F79E3E"
+				type: "item"
+				item: "tconstruct:encyclopedia"
+			}
+		]
+	}]
+}

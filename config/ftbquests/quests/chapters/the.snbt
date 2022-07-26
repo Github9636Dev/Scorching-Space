@@ -1,0 +1,271 @@
+{
+	id: "43EDC2F47B795A9D"
+	group: "549A3A7F791B0967"
+	order_index: 0
+	filename: "the"
+	title: "Getting Resources"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "No Saplings"
+			description: [
+				"Get some wood chunks by clicking the "
+				""
+			]
+			id: "59E7D78926690100"
+			tasks: [{
+				id: "03DD984321D9009F"
+				type: "item"
+			}]
+			rewards: [{
+				id: "7A8B8E307BE7631E"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["59E7D78926690100"]
+			id: "04335A10A6AA5401"
+			tasks: [{
+				id: "1ED70E02AB9C4462"
+				type: "item"
+				item: "minecraft:oak_log"
+			}]
+			rewards: [{
+				id: "17DC682276B76A0A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["59E7D78926690100"]
+			id: "330AB5B1570DC936"
+			tasks: [{
+				id: "1798AB7B93292867"
+				type: "item"
+				item: "minecraft:spruce_log"
+			}]
+			rewards: [{
+				id: "1A5A4F078BAA49A1"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["59E7D78926690100"]
+			id: "5AF61137D465D2F9"
+			tasks: [{
+				id: "07D042706AC49BD6"
+				type: "item"
+				item: "minecraft:dark_oak_log"
+			}]
+			rewards: [{
+				id: "3727A2B619CCA61D"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["59E7D78926690100"]
+			dependency_requirement: "one_completed"
+			id: "5B24AEBFB094D90C"
+			tasks: [{
+				id: "3EECBA6FDAEC9A33"
+				type: "item"
+				item: "minecraft:birch_log"
+			}]
+			rewards: [{
+				id: "404E13D41331D009"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["59E7D78926690100"]
+			id: "71113D31E5FC56AF"
+			tasks: [{
+				id: "6591F38E9139E82A"
+				type: "item"
+				item: "minecraft:acacia_log"
+			}]
+			rewards: [{
+				id: "30C53B7548BF2C29"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["59E7D78926690100"]
+			dependency_requirement: "one_completed"
+			id: "09F946DCD7F06885"
+			tasks: [{
+				id: "5FC28A490BF16579"
+				type: "item"
+				item: "minecraft:jungle_log"
+			}]
+			rewards: [{
+				id: "1F9E46FC91F603FE"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			title: "Any Minecraft planks"
+			x: 0.0d
+			y: -5.5d
+			id: "1764C8141010B243"
+			tasks: [{
+				id: "54BED5E95195A801"
+				type: "item"
+				title: "Any #minecraft:planks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			dependencies: ["1764C8141010B243"]
+			id: "482AAE8041AD3975"
+			tasks: [{
+				id: "54761F300D949294"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			title: "Tinkers"
+			x: -5.5d
+			y: -5.5d
+			subtitle: "This mod is OP"
+			description: ["Unlocks Quest line Tinkers"]
+			dependencies: ["1764C8141010B243"]
+			id: "0CBB8EA92F79EF9E"
+			tasks: [{
+				id: "1118F6AC0B1FA340"
+				type: "checkmark"
+				title: "check"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -11.0d
+			shape: "diamond"
+			dependencies: ["482AAE8041AD3975"]
+			size: 2.0d
+			id: "24C8375EC1D5528B"
+			tasks: [{
+				id: "5A4A03B6BE291D8B"
+				type: "item"
+				item: "ftbsluice:oak_sluice"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -13.0d
+			shape: "diamond"
+			size: 2.0d
+			id: "746B47D03C16123B"
+			tasks: [{
+				id: "48D9DF364066A60D"
+				type: "item"
+				item: "ftbsluice:cloth_mesh"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			dependencies: ["1764C8141010B243"]
+			id: "090FF3DA35898022"
+			tasks: [{
+				id: "6289D351907FA7B8"
+				type: "item"
+				title: "Any #exnihilosequentia:barrels"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:barrels"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["Used to create Water"]
+			dependencies: ["59E7D78926690100"]
+			id: "0457FA70F59DF341"
+			tasks: [{
+				id: "7882FB7F37A9854B"
+				type: "item"
+				title: "Any #excompressum:crucibles/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "excompressum:crucibles/wooden"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["59E7D78926690100"]
+			id: "25E4216C8F6043AA"
+			tasks: [{
+				id: "219A27167F6BFBAB"
+				type: "item"
+				item: {
+					id: "woodenbuckets:wooden_bucket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			dependencies: [
+				"0457FA70F59DF341"
+				"25E4216C8F6043AA"
+			]
+			id: "7C6F4C2437700B74"
+			tasks: [{
+				id: "0820556DD6334FF9"
+				type: "item"
+				item: {
+					id: "woodenbuckets:wooden_water_bucket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}
