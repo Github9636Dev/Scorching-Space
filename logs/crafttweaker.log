@@ -1,52 +1,132 @@
-<<<<<<< HEAD
-[22:25:11.645][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
-[22:25:13.089][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
-=======
-[20:29:51.501][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
-[20:29:56.251][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
->>>>>>> 5158995047eaeff7d000c32c34a0c381503a1e02
+[15:19:09.576][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[15:19:12.182][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'botania' at version '1.16.5-420.2'
 'crafttweaker' at version '7.1.2.511'
 'custommachinery' at version '1.16.5-0.5.8g'
+'draconicevolution' at version '3.0.27.462'
+'excompressum' at version '4.0.5'
+'exnihilosequentia' at version '1.16-20220530-185402'
 'extendedcrafting' at version '3.1.12'
 'jeitweaker' at version '1.1.0.49'
 'mekanism' at version '10.1.2'
 'tconstruct' at version '3.3.4.335'
 'thermal' at version '1.5.0.14'
 'thermal_foundation' at version '1.5.0.14'
-<<<<<<< HEAD
-[22:25:14.305][CONSTRUCT][CLIENT][ERROR] Duplicate ZenCode Name 'mods.exnihilosequentia.ZenSieveRecipe' in classes 'class net.blay09.mods.excompressum.compat.crafttweaker.builder.ZenBaseRecipe' and 'class novamachina.exnihilosequentia.common.compat.crafttweaker.builder.ZenSeiveRecipe'
-[22:25:14.497][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
-[22:25:35.835][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'mekanismcontent'!
-[22:25:36.569][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
-[22:25:36.569][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom gases.
-[22:25:36.579][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom infuse types.
-[22:25:36.583][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom pigments.
-[22:25:36.585][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom robit skins.
-[22:25:36.587][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom slurries.
-[22:26:10.067][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
-[22:26:10.244][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
-[22:35:35.851][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[22:35:35.955][DONE][CLIENT][INFO] Finished loading Scripts!
-[22:35:45.070][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[22:35:45.154][DONE][CLIENT][INFO] Finished loading Scripts!
-[22:35:56.708][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[22:35:56.789][DONE][CLIENT][INFO] Finished loading Scripts!
-[22:36:05.041][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[22:36:05.107][DONE][CLIENT][INFO] Finished loading Scripts!
-CT GUI was limiting and very buggy and has since been removed. It is now recommended to learn ZenScript instead - you can browse the wiki for reference (/ct wiki) or ask for help on the Discord server (/ct discord).
-=======
-[20:29:57.488][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
-[20:30:28.052][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'mekanismcontent'!
-[20:30:29.555][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
-[20:30:29.556][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom gases.
-[20:30:29.571][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom infuse types.
-[20:30:29.580][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom pigments.
-[20:30:29.585][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom robit skins.
-[20:30:29.589][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom slurries.
-[20:30:40.033][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
-[20:30:40.458][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
-[20:37:15.220][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[20:37:15.423][DONE][CLIENT][INFO] Finished loading Scripts!
-[20:37:23.655][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[20:37:23.823][DONE][CLIENT][INFO] Finished loading Scripts!
->>>>>>> 5158995047eaeff7d000c32c34a0c381503a1e02
+[15:19:12.912][CONSTRUCT][CLIENT][ERROR] Duplicate ZenCode Name 'mods.exnihilosequentia.ZenSieveRecipe' in classes 'class net.blay09.mods.excompressum.compat.crafttweaker.builder.ZenBaseRecipe' and 'class novamachina.exnihilosequentia.common.compat.crafttweaker.builder.ZenSeiveRecipe'
+[15:19:13.086][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[15:19:30.156][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'mekanismcontent'!
+[15:19:30.906][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
+[15:19:30.906][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom gases.
+[15:19:30.919][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom infuse types.
+[15:19:30.926][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom pigments.
+[15:19:30.929][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom robit skins.
+[15:19:30.932][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom slurries.
+[15:20:17.725][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[15:20:17.908][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[15:22:47.775][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[15:22:47.869][DONE][CLIENT][INFO] Loading file: 'removed_items.zs' with priority: 10
+[15:22:47.896][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:sieve>"
+[15:22:47.903][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:spruce_sieve>"
+[15:22:47.906][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:jungle_sieve>"
+[15:22:47.909][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:birch_sieve>"
+[15:22:47.912][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:warped_sieve>"
+[15:22:47.915][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:crimson_sieve>"
+[15:22:47.919][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:dark_oak_sieve>"
+[15:22:47.922][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:acacia_sieve>"
+[15:22:47.925][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_string>"
+[15:22:47.928][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_flint>"
+[15:22:47.931][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_iron>"
+[15:22:47.934][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_diamond>"
+[15:22:47.937][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_emerald>"
+[15:22:47.940][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:exnihilosequentia:mesh_netherite>"
+[15:22:47.940][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:acacia_heavy_sieve>"
+[15:22:47.944][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:oak_heavy_sieve>"
+[15:22:47.947][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:dark_oak_heavy_sieve>"
+[15:22:47.950][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:spruce_heavy_sieve>"
+[15:22:47.954][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:jungle_heavy_sieve>"
+[15:22:47.957][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:birch_heavy_sieve>"
+[15:22:47.961][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_sieve>"
+[15:22:47.964][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_heavy_sieve>"
+[15:22:47.967][DONE][CLIENT][INFO] Finished loading Scripts!
+[15:22:47.969][DONE][CLIENT][INFO] This reload was made possible by Ivy_ and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[15:23:01.988][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[15:23:02.082][DONE][CLIENT][INFO] Loading file: 'removed_items.zs' with priority: 10
+[15:23:02.095][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:sieve>"
+[15:23:02.098][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:spruce_sieve>"
+[15:23:02.102][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:jungle_sieve>"
+[15:23:02.105][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:birch_sieve>"
+[15:23:02.108][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:warped_sieve>"
+[15:23:02.113][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:crimson_sieve>"
+[15:23:02.117][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:dark_oak_sieve>"
+[15:23:02.120][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:acacia_sieve>"
+[15:23:02.123][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_string>"
+[15:23:02.127][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_flint>"
+[15:23:02.129][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_iron>"
+[15:23:02.132][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_diamond>"
+[15:23:02.135][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_emerald>"
+[15:23:02.137][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:exnihilosequentia:mesh_netherite>"
+[15:23:02.138][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:acacia_heavy_sieve>"
+[15:23:02.141][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:oak_heavy_sieve>"
+[15:23:02.144][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:dark_oak_heavy_sieve>"
+[15:23:02.146][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:spruce_heavy_sieve>"
+[15:23:02.149][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:jungle_heavy_sieve>"
+[15:23:02.152][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:birch_heavy_sieve>"
+[15:23:02.154][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_sieve>"
+[15:23:02.157][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_heavy_sieve>"
+[15:23:02.159][DONE][CLIENT][INFO] Finished loading Scripts!
+[15:23:02.160][DONE][CLIENT][INFO] This reload was made possible by Manmana and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[15:23:16.288][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[15:23:16.349][DONE][CLIENT][INFO] Loading file: 'removed_items.zs' with priority: 10
+[15:23:16.358][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:sieve>"
+[15:23:16.361][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:spruce_sieve>"
+[15:23:16.364][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:jungle_sieve>"
+[15:23:16.367][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:birch_sieve>"
+[15:23:16.369][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:warped_sieve>"
+[15:23:16.372][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:crimson_sieve>"
+[15:23:16.374][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:dark_oak_sieve>"
+[15:23:16.376][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:acacia_sieve>"
+[15:23:16.379][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_string>"
+[15:23:16.381][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_flint>"
+[15:23:16.384][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_iron>"
+[15:23:16.386][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_diamond>"
+[15:23:16.389][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_emerald>"
+[15:23:16.392][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:exnihilosequentia:mesh_netherite>"
+[15:23:16.392][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:acacia_heavy_sieve>"
+[15:23:16.394][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:oak_heavy_sieve>"
+[15:23:16.397][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:dark_oak_heavy_sieve>"
+[15:23:16.399][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:spruce_heavy_sieve>"
+[15:23:16.402][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:jungle_heavy_sieve>"
+[15:23:16.405][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:birch_heavy_sieve>"
+[15:23:16.407][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_sieve>"
+[15:23:16.410][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_heavy_sieve>"
+[15:23:16.412][DONE][CLIENT][INFO] Finished loading Scripts!
+[15:23:16.412][DONE][CLIENT][INFO] This reload was made possible by Quaternary and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[15:23:27.887][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[15:23:27.946][DONE][CLIENT][INFO] Loading file: 'removed_items.zs' with priority: 10
+[15:23:27.956][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:sieve>"
+[15:23:27.959][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:spruce_sieve>"
+[15:23:27.962][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:jungle_sieve>"
+[15:23:27.965][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:birch_sieve>"
+[15:23:27.968][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:warped_sieve>"
+[15:23:27.970][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:crimson_sieve>"
+[15:23:27.973][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:dark_oak_sieve>"
+[15:23:27.975][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:acacia_sieve>"
+[15:23:27.977][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_string>"
+[15:23:27.980][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_flint>"
+[15:23:27.982][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_iron>"
+[15:23:27.985][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_diamond>"
+[15:23:27.986][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_emerald>"
+[15:23:27.988][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:exnihilosequentia:mesh_netherite>"
+[15:23:27.988][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:acacia_heavy_sieve>"
+[15:23:27.990][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:oak_heavy_sieve>"
+[15:23:27.991][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:dark_oak_heavy_sieve>"
+[15:23:27.993][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:spruce_heavy_sieve>"
+[15:23:27.995][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:jungle_heavy_sieve>"
+[15:23:27.997][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:birch_heavy_sieve>"
+[15:23:27.999][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_sieve>"
+[15:23:28.001][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_heavy_sieve>"
+[15:23:28.003][DONE][CLIENT][INFO] Finished loading Scripts!
+[15:23:28.003][DONE][CLIENT][INFO] This reload was made possible by NickT and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[15:23:49.601][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[15:23:49.663][DONE][CLIENT][INFO] Loading file: 'removed_items.zs' with priority: 10
+[15:23:49.673][DONE][CLIENT][INFO] Finished loading Scripts!

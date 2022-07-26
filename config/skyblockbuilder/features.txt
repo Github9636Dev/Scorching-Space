@@ -50,6 +50,8 @@ minecraft:random_selector
 minecraft:simple_random_selector
 minecraft:random_boolean_selector
 minecraft:decorated
+botania:mystical_flowers
+botania:mystical_mushrooms
 boss_tools:moon_ore
 boss_tools:mars_ore
 boss_tools:mercury_ore
@@ -73,3 +75,4 @@ quark:deferred_feature_underground_decoration
 quark:deferred_feature_vegetal_decoration
 quark:deferred_feature_top_layer_modification
 chisel:replace_block_downwards
+occultism:underground_grove
