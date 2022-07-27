@@ -23,3 +23,7 @@ craftingTable.removeRecipe(<item:excompressum:birch_heavy_sieve>);
 craftingTable.removeRecipe(<item:excompressum:auto_sieve>);
 craftingTable.removeRecipe(<item:excompressum:auto_heavy_sieve>);
 craftingTable.removeRecipe(<item:excompressum:mana_sieve>);
+
+craftingTable.removeRecipe(<item:mekanism:nugget_copper>);
+craftingTable.removeRecipe(<item:occultism:copper_nugget>);
+craftingTable.removeRecipe(<item:create:copper_nugget>);

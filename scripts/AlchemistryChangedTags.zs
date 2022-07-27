@@ -11,3 +11,17 @@
 });
 
 <recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_copper");
+
+<recipetype:alchemistry:combiner>.addJSONRecipe("createzinc",{
+   "input": [
+    {
+      "item": "chemlib:element_zinc",
+      "count": 16
+    }
+  ],
+  "result": {
+    "item": "create:zinc_ingot"
+  }
+});
+
+<recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_zinc");
