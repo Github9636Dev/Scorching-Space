@@ -1,5 +1,5 @@
-[20:18:49.658][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
-[20:18:51.985][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+[14:26:59.207][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[14:27:01.272][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
 'botania' at version '1.16.5-420.2'
 'crafttweaker' at version '7.1.2.511'
 'custommachinery' at version '1.16.5-0.5.8g'
@@ -12,14 +12,215 @@
 'tconstruct' at version '3.3.4.335'
 'thermal' at version '1.5.0.14'
 'thermal_foundation' at version '1.5.0.14'
-[20:18:52.804][CONSTRUCT][CLIENT][ERROR] Duplicate ZenCode Name 'mods.exnihilosequentia.ZenSieveRecipe' in classes 'class net.blay09.mods.excompressum.compat.crafttweaker.builder.ZenBaseRecipe' and 'class novamachina.exnihilosequentia.common.compat.crafttweaker.builder.ZenSeiveRecipe'
-[20:18:52.971][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
-[20:19:10.847][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'mekanismcontent'!
-[20:19:11.752][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
-[20:19:11.753][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom gases.
-[20:19:11.777][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom infuse types.
-[20:19:11.784][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom pigments.
-[20:19:11.789][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom robit skins.
-[20:19:11.793][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom slurries.
-[20:20:01.902][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
-[20:20:02.462][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[14:27:02.604][CONSTRUCT][CLIENT][ERROR] Duplicate ZenCode Name 'mods.exnihilosequentia.ZenSieveRecipe' in classes 'class net.blay09.mods.excompressum.compat.crafttweaker.builder.ZenBaseRecipe' and 'class novamachina.exnihilosequentia.common.compat.crafttweaker.builder.ZenSeiveRecipe'
+[14:27:02.822][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[14:27:22.032][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'mekanismcontent'!
+[14:27:22.862][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
+[14:27:22.862][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom gases.
+[14:27:22.879][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom infuse types.
+[14:27:22.882][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom pigments.
+[14:27:22.885][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom robit skins.
+[14:27:22.886][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom slurries.
+[14:28:18.704][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[14:28:18.932][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[14:31:44.220][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[14:31:44.335][DONE][CLIENT][INFO] Loading file: 'AlchemistryChangedTags.zs' with priority: 10
+[14:31:44.338][DONE][CLIENT][INFO] Loading file: 'furnaceRecipes.zs' with priority: 10
+[14:31:44.340][DONE][CLIENT][INFO] Loading file: 'removed_items.zs' with priority: 10
+[14:31:44.390][DONE][CLIENT][INFO] Adding "alchemistry:combiner" recipe, with name: "crafttweaker:thermalcopper" that outputs: <item:minecraft:air>.mutable()
+[14:31:44.393][DONE][CLIENT][INFO] Removing "alchemistry:combiner" recipe with name: "alchemistry:combiner/ingot_copper"
+[14:31:44.400][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:exnihilosequentia:ingot_copper>"
+[14:31:44.401][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:mekanism:ingot_copper>"
+[14:31:44.401][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:occultism:copper_ingot>"
+[14:31:44.401][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:occultism:copper_ingot>"
+[14:31:44.402][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:create:copper_ingot>"
+[14:31:44.402][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:tconstruct:copper_ingot>"
+[14:31:44.402][DONE][CLIENT][INFO] Removing "create:splashing" recipes with output: <item:exnihilosequentia:ingot_copper>"
+[14:31:44.402][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:exnihilosequentia:ingot_copper>"
+[14:31:44.403][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:mekanism:ingot_copper>"
+[14:31:44.403][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:occultism:copper_ingot>"
+[14:31:44.403][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:occultism:copper_ingot>"
+[14:31:44.403][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:create:copper_ingot>"
+[14:31:44.403][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:tconstruct:copper_ingot>"
+[14:31:44.404][DONE][CLIENT][INFO] Adding "minecraft:blasting" recipe, with name: "crafttweaker:wool2diamonds" that outputs: <item:thermal:copper_ingot>.mutable()
+[14:31:44.404][DONE][CLIENT][INFO] Adding "minecraft:smelting" recipe, with name: "crafttweaker:wool2diamond" that outputs: <item:thermal:copper_ingot>.mutable()
+[14:31:44.404][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mekanism:nugget_copper>"
+[14:31:44.409][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:occultism:copper_nugget>"
+[14:31:44.413][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:create:copper_nugget>"
+[14:31:44.416][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:sieve>"
+[14:31:44.421][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:spruce_sieve>"
+[14:31:44.425][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:jungle_sieve>"
+[14:31:44.429][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:birch_sieve>"
+[14:31:44.432][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:warped_sieve>"
+[14:31:44.435][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:crimson_sieve>"
+[14:31:44.438][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:dark_oak_sieve>"
+[14:31:44.441][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:acacia_sieve>"
+[14:31:44.444][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_string>"
+[14:31:44.447][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_flint>"
+[14:31:44.450][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_iron>"
+[14:31:44.454][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_diamond>"
+[14:31:44.457][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_emerald>"
+[14:31:44.460][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:exnihilosequentia:mesh_netherite>"
+[14:31:44.460][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:acacia_heavy_sieve>"
+[14:31:44.463][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:oak_heavy_sieve>"
+[14:31:44.466][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:dark_oak_heavy_sieve>"
+[14:31:44.470][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:spruce_heavy_sieve>"
+[14:31:44.473][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:jungle_heavy_sieve>"
+[14:31:44.476][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:birch_heavy_sieve>"
+[14:31:44.479][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_sieve>"
+[14:31:44.482][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_heavy_sieve>"
+[14:31:44.484][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:mana_sieve>"
+[14:31:44.487][DONE][CLIENT][INFO] Finished loading Scripts!
+[14:31:44.490][DONE][CLIENT][INFO] This reload was made possible by Belathus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[14:31:58.202][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[14:31:58.289][DONE][CLIENT][INFO] Loading file: 'AlchemistryChangedTags.zs' with priority: 10
+[14:31:58.290][DONE][CLIENT][INFO] Loading file: 'furnaceRecipes.zs' with priority: 10
+[14:31:58.290][DONE][CLIENT][INFO] Loading file: 'removed_items.zs' with priority: 10
+[14:31:58.307][DONE][CLIENT][INFO] Adding "alchemistry:combiner" recipe, with name: "crafttweaker:thermalcopper" that outputs: <item:minecraft:air>.mutable()
+[14:31:58.307][DONE][CLIENT][INFO] Removing "alchemistry:combiner" recipe with name: "alchemistry:combiner/ingot_copper"
+[14:31:58.308][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:exnihilosequentia:ingot_copper>"
+[14:31:58.308][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:mekanism:ingot_copper>"
+[14:31:58.308][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:occultism:copper_ingot>"
+[14:31:58.309][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:occultism:copper_ingot>"
+[14:31:58.309][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:create:copper_ingot>"
+[14:31:58.309][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:tconstruct:copper_ingot>"
+[14:31:58.309][DONE][CLIENT][INFO] Removing "create:splashing" recipes with output: <item:exnihilosequentia:ingot_copper>"
+[14:31:58.309][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:exnihilosequentia:ingot_copper>"
+[14:31:58.309][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:mekanism:ingot_copper>"
+[14:31:58.310][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:occultism:copper_ingot>"
+[14:31:58.310][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:occultism:copper_ingot>"
+[14:31:58.310][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:create:copper_ingot>"
+[14:31:58.310][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:tconstruct:copper_ingot>"
+[14:31:58.310][DONE][CLIENT][INFO] Adding "minecraft:blasting" recipe, with name: "crafttweaker:wool2diamonds" that outputs: <item:thermal:copper_ingot>.mutable()
+[14:31:58.310][DONE][CLIENT][INFO] Adding "minecraft:smelting" recipe, with name: "crafttweaker:wool2diamond" that outputs: <item:thermal:copper_ingot>.mutable()
+[14:31:58.311][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mekanism:nugget_copper>"
+[14:31:58.313][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:occultism:copper_nugget>"
+[14:31:58.316][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:create:copper_nugget>"
+[14:31:58.320][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:sieve>"
+[14:31:58.323][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:spruce_sieve>"
+[14:31:58.327][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:jungle_sieve>"
+[14:31:58.330][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:birch_sieve>"
+[14:31:58.333][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:warped_sieve>"
+[14:31:58.336][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:crimson_sieve>"
+[14:31:58.339][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:dark_oak_sieve>"
+[14:31:58.342][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:acacia_sieve>"
+[14:31:58.346][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_string>"
+[14:31:58.350][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_flint>"
+[14:31:58.353][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_iron>"
+[14:31:58.357][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_diamond>"
+[14:31:58.359][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_emerald>"
+[14:31:58.363][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:exnihilosequentia:mesh_netherite>"
+[14:31:58.363][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:acacia_heavy_sieve>"
+[14:31:58.366][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:oak_heavy_sieve>"
+[14:31:58.369][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:dark_oak_heavy_sieve>"
+[14:31:58.371][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:spruce_heavy_sieve>"
+[14:31:58.375][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:jungle_heavy_sieve>"
+[14:31:58.379][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:birch_heavy_sieve>"
+[14:31:58.382][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_sieve>"
+[14:31:58.385][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_heavy_sieve>"
+[14:31:58.389][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:mana_sieve>"
+[14:31:58.393][DONE][CLIENT][INFO] Finished loading Scripts!
+[14:31:58.394][DONE][CLIENT][INFO] This reload was made possible by Phillip Swearingain and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[14:32:14.544][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[14:32:14.633][DONE][CLIENT][INFO] Loading file: 'AlchemistryChangedTags.zs' with priority: 10
+[14:32:14.633][DONE][CLIENT][INFO] Loading file: 'furnaceRecipes.zs' with priority: 10
+[14:32:14.634][DONE][CLIENT][INFO] Loading file: 'removed_items.zs' with priority: 10
+[14:32:14.651][DONE][CLIENT][INFO] Adding "alchemistry:combiner" recipe, with name: "crafttweaker:thermalcopper" that outputs: <item:minecraft:air>.mutable()
+[14:32:14.652][DONE][CLIENT][INFO] Removing "alchemistry:combiner" recipe with name: "alchemistry:combiner/ingot_copper"
+[14:32:14.652][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:exnihilosequentia:ingot_copper>"
+[14:32:14.652][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:mekanism:ingot_copper>"
+[14:32:14.653][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:occultism:copper_ingot>"
+[14:32:14.653][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:occultism:copper_ingot>"
+[14:32:14.653][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:create:copper_ingot>"
+[14:32:14.653][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:tconstruct:copper_ingot>"
+[14:32:14.653][DONE][CLIENT][INFO] Removing "create:splashing" recipes with output: <item:exnihilosequentia:ingot_copper>"
+[14:32:14.653][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:exnihilosequentia:ingot_copper>"
+[14:32:14.653][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:mekanism:ingot_copper>"
+[14:32:14.653][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:occultism:copper_ingot>"
+[14:32:14.653][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:occultism:copper_ingot>"
+[14:32:14.653][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:create:copper_ingot>"
+[14:32:14.653][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:tconstruct:copper_ingot>"
+[14:32:14.653][DONE][CLIENT][INFO] Adding "minecraft:blasting" recipe, with name: "crafttweaker:wool2diamonds" that outputs: <item:thermal:copper_ingot>.mutable()
+[14:32:14.653][DONE][CLIENT][INFO] Adding "minecraft:smelting" recipe, with name: "crafttweaker:wool2diamond" that outputs: <item:thermal:copper_ingot>.mutable()
+[14:32:14.654][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mekanism:nugget_copper>"
+[14:32:14.657][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:occultism:copper_nugget>"
+[14:32:14.660][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:create:copper_nugget>"
+[14:32:14.664][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:sieve>"
+[14:32:14.668][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:spruce_sieve>"
+[14:32:14.671][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:jungle_sieve>"
+[14:32:14.675][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:birch_sieve>"
+[14:32:14.678][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:warped_sieve>"
+[14:32:14.681][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:crimson_sieve>"
+[14:32:14.684][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:dark_oak_sieve>"
+[14:32:14.687][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:acacia_sieve>"
+[14:32:14.690][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_string>"
+[14:32:14.692][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_flint>"
+[14:32:14.695][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_iron>"
+[14:32:14.697][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_diamond>"
+[14:32:14.700][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_emerald>"
+[14:32:14.702][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:exnihilosequentia:mesh_netherite>"
+[14:32:14.702][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:acacia_heavy_sieve>"
+[14:32:14.705][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:oak_heavy_sieve>"
+[14:32:14.708][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:dark_oak_heavy_sieve>"
+[14:32:14.710][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:spruce_heavy_sieve>"
+[14:32:14.711][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:jungle_heavy_sieve>"
+[14:32:14.713][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:birch_heavy_sieve>"
+[14:32:14.716][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_sieve>"
+[14:32:14.718][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_heavy_sieve>"
+[14:32:14.720][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:mana_sieve>"
+[14:32:14.723][DONE][CLIENT][INFO] Finished loading Scripts!
+[14:32:14.724][DONE][CLIENT][INFO] This reload was made possible by Angelo A and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[14:32:27.977][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[14:32:28.053][DONE][CLIENT][INFO] Loading file: 'AlchemistryChangedTags.zs' with priority: 10
+[14:32:28.054][DONE][CLIENT][INFO] Loading file: 'furnaceRecipes.zs' with priority: 10
+[14:32:28.054][DONE][CLIENT][INFO] Loading file: 'removed_items.zs' with priority: 10
+[14:32:28.070][DONE][CLIENT][INFO] Adding "alchemistry:combiner" recipe, with name: "crafttweaker:thermalcopper" that outputs: <item:minecraft:air>.mutable()
+[14:32:28.070][DONE][CLIENT][INFO] Removing "alchemistry:combiner" recipe with name: "alchemistry:combiner/ingot_copper"
+[14:32:28.071][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:exnihilosequentia:ingot_copper>"
+[14:32:28.071][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:mekanism:ingot_copper>"
+[14:32:28.071][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:occultism:copper_ingot>"
+[14:32:28.072][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:occultism:copper_ingot>"
+[14:32:28.072][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:create:copper_ingot>"
+[14:32:28.072][DONE][CLIENT][INFO] Removing "minecraft:smelting" recipes with output: <item:tconstruct:copper_ingot>"
+[14:32:28.072][DONE][CLIENT][INFO] Removing "create:splashing" recipes with output: <item:exnihilosequentia:ingot_copper>"
+[14:32:28.072][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:exnihilosequentia:ingot_copper>"
+[14:32:28.072][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:mekanism:ingot_copper>"
+[14:32:28.072][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:occultism:copper_ingot>"
+[14:32:28.072][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:occultism:copper_ingot>"
+[14:32:28.073][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:create:copper_ingot>"
+[14:32:28.073][DONE][CLIENT][INFO] Removing "minecraft:blasting" recipes with output: <item:tconstruct:copper_ingot>"
+[14:32:28.073][DONE][CLIENT][INFO] Adding "minecraft:blasting" recipe, with name: "crafttweaker:wool2diamonds" that outputs: <item:thermal:copper_ingot>.mutable()
+[14:32:28.073][DONE][CLIENT][INFO] Adding "minecraft:smelting" recipe, with name: "crafttweaker:wool2diamond" that outputs: <item:thermal:copper_ingot>.mutable()
+[14:32:28.074][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:mekanism:nugget_copper>"
+[14:32:28.077][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:occultism:copper_nugget>"
+[14:32:28.080][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:create:copper_nugget>"
+[14:32:28.082][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:sieve>"
+[14:32:28.086][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:spruce_sieve>"
+[14:32:28.089][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:jungle_sieve>"
+[14:32:28.091][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:birch_sieve>"
+[14:32:28.094][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:warped_sieve>"
+[14:32:28.096][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:crimson_sieve>"
+[14:32:28.099][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:dark_oak_sieve>"
+[14:32:28.102][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:acacia_sieve>"
+[14:32:28.106][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_string>"
+[14:32:28.109][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_flint>"
+[14:32:28.112][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_iron>"
+[14:32:28.115][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_diamond>"
+[14:32:28.118][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:exnihilosequentia:mesh_emerald>"
+[14:32:28.121][DONE][CLIENT][INFO] Removing "minecraft:smithing" recipes with output: <item:exnihilosequentia:mesh_netherite>"
+[14:32:28.121][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:acacia_heavy_sieve>"
+[14:32:28.124][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:oak_heavy_sieve>"
+[14:32:28.127][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:dark_oak_heavy_sieve>"
+[14:32:28.130][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:spruce_heavy_sieve>"
+[14:32:28.134][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:jungle_heavy_sieve>"
+[14:32:28.138][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:birch_heavy_sieve>"
+[14:32:28.141][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_sieve>"
+[14:32:28.145][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:auto_heavy_sieve>"
+[14:32:28.148][DONE][CLIENT][INFO] Removing "minecraft:crafting" recipes with output: <item:excompressum:mana_sieve>"
+[14:32:28.152][DONE][CLIENT][INFO] Finished loading Scripts!
+[14:32:28.153][DONE][CLIENT][INFO] This reload was made possible by NickT and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[14:32:54.160][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[14:32:54.264][DONE][CLIENT][INFO] Loading file: 'AlchemistryChangedTags.zs' with priority: 10
+[14:32:54.264][DONE][CLIENT][INFO] Loading file: 'furnaceRecipes.zs' with priority: 10
+[14:32:54.265][DONE][CLIENT][INFO] Loading file: 'removed_items.zs' with priority: 10
+[14:32:54.281][DONE][CLIENT][INFO] Finished loading Scripts!

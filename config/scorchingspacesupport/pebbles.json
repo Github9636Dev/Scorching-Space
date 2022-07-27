@@ -1,0 +1,32 @@
+[
+  {
+    "block": "minecraft:oak_log",
+    "drop": "scorchingspacesupport:wood_chunk",
+    "amount": 1
+  },
+  {
+    "block": "minecraft:birch_log",
+    "drop": "scorchingspacesupport:wood_chunk",
+    "amount": 1
+  },
+  {
+    "block": "minecraft:spruce_log",
+    "drop": "scorchingspacesupport:wood_chunk",
+    "amount": 1
+  },
+  {
+    "block": "minecraft:jungle_log",
+    "drop": "scorchingspacesupport:wood_chunk",
+    "amount": 1
+  },
+  {
+    "block": "minecraft:acacia_log",
+    "drop": "scorchingspacesupport:wood_chunk",
+    "amount": 1
+  },
+  {
+    "block": "minecraft:dark_oak_log",
+    "drop": "scorchingspacesupport:wood_chunk",
+    "amount": 1
+  }
+]
