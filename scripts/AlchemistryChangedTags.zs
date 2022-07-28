@@ -25,3 +25,17 @@
 });
 
 <recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_zinc");
+
+<recipetype:alchemistry:combiner>.addJSONRecipe("thermaltin",{
+   "input": [
+    {
+      "item": "chemlib:element_tin",
+      "count": 16
+    }
+  ],
+  "result": {
+    "item": "thermal:tin_ingot"
+  }
+});
+
+<recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_tin");
