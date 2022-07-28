@@ -39,3 +39,31 @@
 });
 
 <recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_tin");
+
+<recipetype:alchemistry:combiner>.addJSONRecipe("mekanismosmium",{
+   "input": [
+    {
+      "item": "chemlib:element_osmium",
+      "count": 16
+    }
+  ],
+  "result": {
+    "item": "mekanism:ingot_osmium"
+  }
+});
+
+<recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_osmium");
+
+<recipetype:alchemistry:combiner>.addJSONRecipe("thermallead",{
+   "input": [
+    {
+      "item": "chemlib:element_lead",
+      "count": 16
+    }
+  ],
+  "result": {
+    "item": "thermal:lead_ingot"
+  }
+});
+
+<recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_lead");

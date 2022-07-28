@@ -27,3 +27,5 @@ craftingTable.removeRecipe(<item:excompressum:mana_sieve>);
 craftingTable.removeRecipe(<item:mekanism:nugget_copper>);
 craftingTable.removeRecipe(<item:occultism:copper_nugget>);
 craftingTable.removeRecipe(<item:create:copper_nugget>);
+
+craftingTable.removeRecipe(<item:boss_tools:blast_furnace>);
